@@ -1,0 +1,11 @@
+#Indexing and slicing Example
+wwn="aabbcc112233"
+x1=wwn[0:2]
+x2=wwn[2:4]
+x3=wwn[4:6]
+x4=wwn[6:8]
+x5=wwn[8:10]
+x6=wwn[10:12]
+pwwn=x1+':'+x2+':'+x3+':'+x4+':'+x5+':'+x6
+print(pwwn)
+#print(x1,":",x2,":",x3,":",x4,":",x5,":",x6)
